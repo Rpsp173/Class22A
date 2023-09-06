@@ -4,7 +4,7 @@
     list-style: none;
 }
 img{
-    max-width: 100%;
+    width: 100%;
 }
 .nav-link{
     padding: 0px 15px !important;
@@ -176,4 +176,100 @@ textarea:focus{
 footer p span{
     font-size: 23px;
     font-weight: bolder;
+}
+
+
+/* Responsive Css */
+
+@media screen and (max-width: 1200px){
+    .user-items h2 {
+        width: 12%;
+    }
+}
+@media screen and (max-width: 992px){
+    .nav-link {
+        padding: 0px 7px !important;
+    }
+    .cal-item {
+        margin-bottom: 25px;
+    }
+    .user-items {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .user-items h2 {
+        width: 18%;
+    }
+    .website-button {
+        text-align: start !important;
+    }
+    .btnz {
+        width: 30%;
+        padding: 13px 0px !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav-link {
+        padding: 0px 5px !important;
+        font-size: 12px;
+    }
+    .contact-items {
+        width: 80%;
+        margin: auto;
+    }
+    .contact-info {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 450px){
+    .dropdown-item {
+        font-size: 12px;
+    }
+    .btnx {
+        width: 48%;
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+    .user-items h2 {
+        width: 40%;
+    }
+    .btny {
+        width: 48%;
+        font-size: 15px;
+    }
+    .team-section {
+        padding: 10px 20px;
+        width: 80%;
+        margin: 55px auto;
+    }
+    .btnz {
+        width: 30%;
+        padding: 8px 0px !important;
+    }
+    .contact-items {
+        padding: 30px 10px;
+    }
+    .contact-item {
+        margin-top: 30px;
+    }
+    input {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .contact-title p {
+        font-size: 20px;
+    }
+    .contact-title h1 {
+        font-size: 35px;
+    }
+    textarea {
+        height: 150px;
+        margin-bottom: 5px;
+    }
+    .contact-item a {
+        width: 50%;
+        height: 45px;
+        padding: 0;
+    }
 }
