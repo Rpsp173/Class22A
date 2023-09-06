@@ -227,7 +227,7 @@ footer p span{
         margin-top: 40px;
     }
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 576px){
     .dropdown-item {
         font-size: 12px;
     }
